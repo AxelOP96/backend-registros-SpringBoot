@@ -31,3 +31,53 @@ build/
 
 ### VS Code ###
 .vscode/
+# Archivos y carpetas generados por IntelliJ IDEA
+.idea/
+*.iml
+
+# Archivos de compilación de Java
+/target/
+
+# Archivos de Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de VSCode
+.vscode/
+
+# Archivos de configuración de Eclipse (por si alguien usa)
+.project
+.classpath
+.settings/
+
+# Build temporales
+build/
+
+# Entornos virtuales y otros
+.env
+*.env
+
+# Archivos de dependencias
+dependency-reduced-pom.xml
+
+# Archivos de salida
+out/
+
+# Backup temporales
+*.bak
+*.tmp
+*.swp
+
+# Swagger generado
+swagger-ui/
+api-docs/
+
+# Otros
+*.orig
